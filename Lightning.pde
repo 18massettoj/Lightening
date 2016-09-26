@@ -4,7 +4,7 @@ int endX = 0;
 int endY = 150;
 void setup()
 {
-  background(0,0,0);
+  background(random(255),random(255),random(255));
   size(300,300);
   strokeWeight(2);
 }
@@ -22,6 +22,7 @@ void draw()
 }
 void mousePressed()
 {
+  background(random(255),random(255),random(255));
 startX = 0;
 startY = 150;
 endX = 0;
